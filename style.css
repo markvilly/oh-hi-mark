@@ -1,0 +1,73 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  /* display: flex; */
+  align-items: center;
+  /* min-height: 100vh; */
+  background: #00050a;
+  color: #eeeeee;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#landing-page {
+  background: pink;
+  height: 100vh;
+}
+
+h1 {
+  position: relative;
+  font-size: 6vw;
+  font-weight: bold;
+  /* padding-left: 15vw; */
+  overflow: hidden;
+}
+
+h1 .box {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  background: #2800ad;
+  width: 0px;
+  height: 1vw;
+  z-index: -1;
+}
+
+h1 .hi {
+  display: inline-block;
+}
+
+div .container {
+  position: relative;
+  /* top: 900px; */
+}
+
+/* div .contact {
+  position: static;
+  width: 8vw;
+  height: 100vh;
+  background: #eeeeee;
+  left: 0vh;
+} */
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0vh;
+  width: 100vw;
+  height: 100px;
+  z-index: 99;
+  /* background: red; */
+}
+
+#skills-section {
+  height: 100vh;
+}
