@@ -3,7 +3,7 @@ body {
   /* display: flex; */
   align-items: center;
   /* min-height: 100vh; */
-  background: #00050a;
+
   color: #eeeeee;
   justify-content: center;
   margin: 0;
@@ -17,7 +17,7 @@ body {
 }
 
 #landing-page {
-  background: pink;
+  background: #00050a;
   height: 100vh;
 }
 
@@ -69,5 +69,9 @@ div .container {
 }
 
 #skills-section {
-  height: 100vh;
+  position: absolute;
+  padding: 10px 0;
+  height: 200vh;
+  width: 100vw;
+  background: #eeeeee;
 }
