@@ -70,8 +70,20 @@ div .container {
 
 #skills-section {
   position: absolute;
+  top: 200vh;
   padding: 10px 0;
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
   background: #eeeeee;
+}
+
+div .services {
+  width: 400px;
+  height: 400px;
+}
+
+.sevices-word {
+  display: flex;
+  font-size: 3rem;
+  color: #00050a;
 }
