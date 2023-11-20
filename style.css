@@ -89,7 +89,7 @@ div .services {
   font-size: 3rem;
   /* font-weight: 900; */
   color: #00050a;
-  background: #2800ad;
+  /* background: #2800ad; */
   padding: 3rem 3rem 0 3rem;
 }
 
@@ -151,4 +151,30 @@ h3 {
   width: 100vw;
   background: #00050a;
   color: #eeeeee;
+}
+
+.contact-container {
+  width: 100vw;
+  height: 500px;
+  /* background: red; */
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+.email {
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+}
+
+.links {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  gap: 100px;
+  list-style: none;
 }
