@@ -1,4 +1,4 @@
-const words = ["Mark.", "a ui/ux designer.", "a developer.", "a boyfriend."];
+const words = ["Mark.", "a designer.", "a developer.", "a boyfriend."];
 
 gsap.registerPlugin(TextPlugin);
 
