@@ -205,3 +205,16 @@ h4 {
   height: 200px;
   border-radius: 5%;
 }
+
+.github,
+.behance,
+.linkedin {
+  color: #eee;
+  text-decoration: none;
+}
+
+.github:hover,
+.behance:hover,
+.linkedin:hover {
+  color: rgb(217, 31, 223);
+}
