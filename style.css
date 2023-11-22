@@ -48,13 +48,16 @@ div .container {
   /* top: 900px; */
 }
 
-/* div .contact {
-  position: static;
-  width: 8vw;
-  height: 100vh;
-  background: #eeeeee;
-  left: 0vh;
-} */
+.container2 {
+  position: absolute;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  gap: 250px;
+}
 
 .header-section {
   display: flex;
@@ -77,24 +80,24 @@ div .container {
   background: #eeeeee;
 }
 
-div .services {
+.services {
   /* width: 400px; */
-  height: 400px;
+  height: 200px;
 }
 
 .sevices-word {
   display: flex;
+
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  /* font-weight: 900; */
   color: #00050a;
-  /* background: #2800ad; */
-  /* padding: 3rem 3rem 0 3rem; */
+  padding-top: 30px;
 }
 
 div .container {
-  height: 400px;
+  position: relative;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,29 +107,39 @@ div .container {
 
 .service {
   display: flex;
-  justify-content: left;
-  padding-left: 30px;
-  /* margin-top: 80px; */
-  align-items: center;
-  width: 300px;
-  height: 100px;
-  border: 2px solid #00050a9f;
-  border-radius: 8px;
+  width: 200px;
+  /* height: 10px; */
+  /* background: red; */
 }
 
-.paragraph {
+.service2 {
+}
+
+/* .paragraph {
   color: #00050aab;
   position: absolute;
   width: 230px;
-  /* padding-right: 30px; */
+  padding-right: 30px;
   padding-top: 40px;
-}
+} */
 
 h3 {
   color: #00050a;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
   position: absolute;
-  top: 20vh;
+  top: 10vh;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 300px;
 }
 
 .testimonials {
@@ -142,9 +155,12 @@ h3 {
 }
 
 .testimonial {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
   width: 100vw;
   height: 20px;
-  background: red;
+  /* background: red; */
 }
 
 #contact {
@@ -177,8 +193,15 @@ h4 {
 
 .links {
   position: absolute;
-  bottom: 50px;
+  bottom: 10px;
   display: flex;
   gap: 100px;
   list-style: none;
+}
+
+.pic {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
 }
