@@ -142,7 +142,8 @@ h3 {
   margin-right: 300px;
 }
 
-.testimonials {
+.skills-div {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,6 +153,170 @@ h3 {
   top: 100vh;
   width: 100vw;
   font-size: 3rem;
+}
+
+.skills {
+  position: absolute;
+  gap: 35px;
+  top: 100px;
+}
+
+.skills h4 {
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 2px 2px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.html-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 2vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+
+.html-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 1.8vh;
+  border-radius: 2px;
+  width: 17vw;
+  height: 7px;
+  z-index: 99;
+}
+
+.css-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 9vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+.css-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 8.8vh;
+  border-radius: 2px;
+  width: 12vw;
+  height: 7px;
+}
+
+.javascript-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 16vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+
+.javascript-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 15.8vh;
+  border-radius: 2px;
+  width: 15vw;
+  height: 7px;
+  z-index: 99;
+}
+
+.figma-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 23.5vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+
+.figma-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 23.2vh;
+  border-radius: 2px;
+  width: 18vw;
+  height: 7px;
+  z-index: 99;
+}
+
+.adobexd-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 30.2vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+
+.adobexd-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 30vh;
+  border-radius: 2px;
+  width: 16vw;
+  transition: width 0.3s ease-in-out;
+  height: 7px;
+  z-index: 99;
+}
+
+/* .adobexd-div-top:hover {
+  width: 20vw;
+} */
+
+.illustrator-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 38vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+
+.illustrator-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 37.7vh;
+  border-radius: 2px;
+  width: 10vw;
+  height: 7px;
+  z-index: 99;
+}
+
+.photoshop-div {
+  background: rgb(163, 163, 163);
+  position: absolute;
+  left: 130px;
+  top: 45.5vh;
+  border-radius: 2px;
+  width: 20vw;
+  height: 4px;
+}
+
+.photoshop-div-top {
+  background: rgb(0, 8, 255);
+  position: absolute;
+  left: 130px;
+  top: 45.2vh;
+  border-radius: 2px;
+  width: 18vw;
+  height: 7px;
+  z-index: 99;
 }
 
 .testimonial {
@@ -217,4 +382,8 @@ h4 {
 .behance:hover,
 .linkedin:hover {
   color: rgb(217, 31, 223);
+}
+
+hr {
+  background: red;
 }
