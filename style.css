@@ -80,11 +80,6 @@ div .container {
   background: #eeeeee;
 }
 
-.services {
-  /* width: 400px; */
-  height: 200px;
-}
-
 .sevices-word {
   display: flex;
 
@@ -95,33 +90,29 @@ div .container {
   padding-top: 30px;
 }
 
-div .container {
-  position: relative;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  /* background-color: red; */
-}
-
-.service {
-  display: flex;
-  width: 200px;
-  /* height: 10px; */
-  /* background: red; */
-}
-
-.service2 {
-}
-
-/* .paragraph {
-  color: #00050aab;
+hr {
   position: absolute;
-  width: 230px;
-  padding-right: 30px;
-  padding-top: 40px;
-} */
+  left: 0;
+  width: 100vw;
+  top: -5vh;
+}
+
+.separator {
+  position: absolute;
+  bottom: 30vh;
+  right: 50vw;
+  width: 2px;
+  height: 350px;
+  background-color: #00050a;
+}
+
+.fa-brands {
+  font-size: 24px;
+  /* background: red; */
+  margin: 0;
+  padding: 0;
+  line-height: 0.1;
+}
 
 h3 {
   color: #00050a;
@@ -151,19 +142,28 @@ h3 {
   color: #00050a;
   position: absolute;
   top: 100vh;
-  width: 100vw;
+  left: 720px;
+  /* width: 100vw; */
   font-size: 3rem;
+}
+
+.skillses {
+  position: absolute;
+  left: -30px;
+  /* background: red; */
+  width: 300px;
 }
 
 .skills {
   position: absolute;
   gap: 35px;
   top: 100px;
+  /* background: red; */
 }
 
 .skills h4 {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 800;
   padding: 2px 2px;
   margin-bottom: 20px;
   text-align: right;
@@ -172,7 +172,7 @@ h3 {
 .html-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
+  left: 70px;
   top: 2vh;
   border-radius: 2px;
   width: 20vw;
@@ -182,7 +182,7 @@ h3 {
 .html-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
+  left: 70px;
   top: 1.8vh;
   border-radius: 2px;
   width: 17vw;
@@ -193,7 +193,7 @@ h3 {
 .css-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
+  left: 70px;
   top: 9vh;
   border-radius: 2px;
   width: 20vw;
@@ -202,7 +202,7 @@ h3 {
 .css-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
+  left: 70px;
   top: 8.8vh;
   border-radius: 2px;
   width: 12vw;
@@ -212,8 +212,8 @@ h3 {
 .javascript-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
-  top: 16vh;
+  left: 70px;
+  top: 17.5vh;
   border-radius: 2px;
   width: 20vw;
   height: 4px;
@@ -222,8 +222,8 @@ h3 {
 .javascript-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
-  top: 15.8vh;
+  left: 70px;
+  top: 17.2vh;
   border-radius: 2px;
   width: 15vw;
   height: 7px;
@@ -233,8 +233,8 @@ h3 {
 .figma-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
-  top: 23.5vh;
+  left: 70px;
+  top: 25.5vh;
   border-radius: 2px;
   width: 20vw;
   height: 4px;
@@ -243,8 +243,8 @@ h3 {
 .figma-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
-  top: 23.2vh;
+  left: 70px;
+  top: 25.2vh;
   border-radius: 2px;
   width: 18vw;
   height: 7px;
@@ -254,8 +254,8 @@ h3 {
 .adobexd-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
-  top: 30.2vh;
+  left: 70px;
+  top: 33.9vh;
   border-radius: 2px;
   width: 20vw;
   height: 4px;
@@ -264,8 +264,8 @@ h3 {
 .adobexd-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
-  top: 30vh;
+  left: 70px;
+  top: 33.7vh;
   border-radius: 2px;
   width: 16vw;
   transition: width 0.3s ease-in-out;
@@ -280,8 +280,8 @@ h3 {
 .illustrator-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
-  top: 38vh;
+  left: 70px;
+  top: 41.5vh;
   border-radius: 2px;
   width: 20vw;
   height: 4px;
@@ -290,8 +290,8 @@ h3 {
 .illustrator-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
-  top: 37.7vh;
+  left: 70px;
+  top: 41.2vh;
   border-radius: 2px;
   width: 10vw;
   height: 7px;
@@ -301,8 +301,8 @@ h3 {
 .photoshop-div {
   background: rgb(163, 163, 163);
   position: absolute;
-  left: 130px;
-  top: 45.5vh;
+  left: 70px;
+  top: 49.5vh;
   border-radius: 2px;
   width: 20vw;
   height: 4px;
@@ -311,8 +311,8 @@ h3 {
 .photoshop-div-top {
   background: rgb(0, 8, 255);
   position: absolute;
-  left: 130px;
-  top: 45.2vh;
+  left: 70px;
+  top: 49.2vh;
   border-radius: 2px;
   width: 18vw;
   height: 7px;
@@ -382,8 +382,4 @@ h4 {
 .behance:hover,
 .linkedin:hover {
   color: rgb(217, 31, 223);
-}
-
-hr {
-  background: red;
 }
