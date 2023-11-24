@@ -73,10 +73,45 @@ div .container {
 
 #aboutme-section {
   position: absolute;
+  display: flex;
   top: 100vh;
   height: 100vh;
   width: 100vw;
   background: pink;
+}
+
+.about-me-div {
+  background-color: red;
+  height: 100%;
+  width: 55%;
+}
+
+.about-me-text {
+  color: #00050a;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-size: 3rem;
+  margin-top: 150px;
+  padding: 0 40px 0 70px;
+}
+
+.about-me-head {
+  font-size: 1.6rem;
+  color: #00050a;
+  font-weight: 600;
+  margin-top: 150px;
+  padding-left: 70px;
+}
+.about-header {
+  display: flex;
+}
+
+.about-separator {
+  position: absolute;
+  width: 0.3%;
+  height: 80%;
+  background: #00050a;
+  border-radius: 30px;
+  top: 60px;
 }
 
 #services-section {
@@ -109,175 +144,6 @@ hr {
   left: 0;
   width: 100vw;
   top: -5vh;
-}
-
-h3 {
-  color: #00050a;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 100px;
-  position: absolute;
-  top: 10vh;
-  border: 2px solid black;
-  border-radius: 6px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-right: 300px;
-}
-
-.html-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 2vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-
-.html-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 1.8vh;
-  border-radius: 2px;
-  width: 17vw;
-  height: 7px;
-  z-index: 99;
-}
-
-.css-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 9vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-.css-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 8.8vh;
-  border-radius: 2px;
-  width: 12vw;
-  height: 7px;
-}
-
-.javascript-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 17.5vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-
-.javascript-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 17.2vh;
-  border-radius: 2px;
-  width: 15vw;
-  height: 7px;
-  z-index: 99;
-}
-
-.figma-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 25.5vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-
-.figma-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 25.2vh;
-  border-radius: 2px;
-  width: 18vw;
-  height: 7px;
-  z-index: 99;
-}
-
-.adobexd-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 33.9vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-
-.adobexd-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 33.7vh;
-  border-radius: 2px;
-  width: 16vw;
-  transition: width 0.3s ease-in-out;
-  height: 7px;
-  z-index: 99;
-}
-
-/* .adobexd-div-top:hover {
-  width: 20vw;
-} */
-
-.illustrator-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 41.5vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-
-.illustrator-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 41.2vh;
-  border-radius: 2px;
-  width: 10vw;
-  height: 7px;
-  z-index: 99;
-}
-
-.photoshop-div {
-  background: rgb(163, 163, 163);
-  position: absolute;
-  left: 70px;
-  top: 49.5vh;
-  border-radius: 2px;
-  width: 20vw;
-  height: 4px;
-}
-
-.photoshop-div-top {
-  background: rgb(0, 8, 255);
-  position: absolute;
-  left: 70px;
-  top: 49.2vh;
-  border-radius: 2px;
-  width: 18vw;
-  height: 7px;
-  z-index: 99;
 }
 
 .contact-container {

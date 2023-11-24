@@ -1,4 +1,6 @@
-const words = ["Mark.", "a designer.", "a developer.", "a boyfriend."];
+const words = ["Mark.", "a designer.", "a developer.", "a creative."];
+
+const words2 = ["designer,", "developer,", "creative,", "problem-solver,"];
 
 gsap.registerPlugin(TextPlugin);
 
@@ -37,9 +39,17 @@ boxTl
   });
 
 let masterTl = gsap.timeline({ repeat: -1 }).pause();
+let animatedTextTl = gsap.timeline({ repeat: -1 }).pause();
 
+// Separate timelines for "text" and "animated-text" classes
 words.forEach((word) => {
   let tl = gsap.timeline({ delay: 1, repeat: 1, yoyo: true, repeatDelay: 1 });
   tl.to(".text", { duration: 1, text: word });
   masterTl.add(tl);
+});
+
+words2.forEach((word) => {
+  let tl = gsap.timeline({ delay: 1, repeat: 1, yoyo: true, repeatDelay: 1 });
+  tl.to(".animated-text", { duration: 1, text: word });
+  animatedTextTl.add(tl);
 });
