@@ -2,7 +2,9 @@ const words = ["Mark.", "a designer.", "a developer.", "a creative."];
 
 const words2 = ["designer,", "developer,", "creative,", "problem-solver,"];
 
-gsap.registerPlugin(TextPlugin);
+// ANIMATED TEXT EFFECT START HERE.
+
+gsap.registerPlugin(TextPlugin, ScrollTrigger);
 
 let cursor = gsap.to(".cursor", {
   opacity: 0,
@@ -52,4 +54,37 @@ words2.forEach((word) => {
   let tl = gsap.timeline({ delay: 1, repeat: 1, yoyo: true, repeatDelay: 1 });
   tl.to(".animated-text", { duration: 1, text: word });
   animatedTextTl.add(tl);
+});
+
+// gsap.registerPlugin(ScrollTrigger);
+
+// THE MARQUEE EFFECT
+
+let currentScroll = 0;
+let isScrollingDown = true;
+let isNotScrolling = true;
+
+let tween = gsap
+  .to(".marquee-part", {
+    xPercent: -100,
+    repeat: -1,
+    duration: 5,
+    ease: "linear",
+  })
+  .totalProgress(0.5);
+
+gsap.set(".marquee-inner", { xPercent: -50 });
+
+window.addEventListener("scroll", function () {
+  if (this.window.pageYOffset > currentScroll) {
+    isScrollingDown = true;
+  } else {
+    isScrollingDown = false;
+  }
+
+  gsap.to(tween, {
+    timeScale: isScrollingDown ? 1 : -1,
+  });
+
+  currentScroll = this.window.pageYOffset;
 });
