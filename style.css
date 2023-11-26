@@ -165,6 +165,7 @@ div .container {
   flex: auto;
   flex-direction: row;
   gap: 20px;
+  background: blue;
 }
 
 .marquee-part {
@@ -172,7 +173,7 @@ div .container {
   align-items: center;
   flex-shrink: 0;
   padding: 0 4px;
-  background: blue;
+  /* background: blue; */
 }
 
 #services-section {
