@@ -68,7 +68,7 @@ let tween = gsap
   .to(".marquee-part", {
     xPercent: -100,
     repeat: -1,
-    duration: 4.28,
+    duration: 6,
     ease: "linear",
   })
   .totalProgress(0.5);
@@ -88,37 +88,3 @@ window.addEventListener("scroll", function () {
 
   currentScroll = this.window.pageYOffset;
 });
-
-// const marqueeContainer = document.querySelector(".marquee-inner");
-// const marqueeParts = document.querySelectorAll(".marquee-part");
-
-// // Calculate the total width needed for the marquee container
-// const totalWidth = marqueeParts.length * 100;
-
-// // Adjust the width of the marquee container
-// marqueeContainer.style.width = totalWidth + "%";
-
-// let tween = gsap.to(marqueeContainer, {
-//   xPercent: -100,
-//   repeat: -1,
-//   duration: 10, // Adjust the duration as needed
-//   ease: "linear",
-// });
-
-// // Make sure to update your scroll event listener to pause the marquee when scrolling
-// let currentScroll = 0;
-// let isScrollingDown = true;
-
-// window.addEventListener("scroll", function () {
-//   if (this.window.pageYOffset > currentScroll) {
-//     isScrollingDown = true;
-//   } else {
-//     isScrollingDown = false;
-//   }
-
-//   gsap.to(tween, {
-//     timeScale: isScrollingDown ? 1 : -1,
-//   });
-
-//   currentScroll = this.window.pageYOffset;
-// });
