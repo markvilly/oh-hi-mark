@@ -1,4 +1,4 @@
-const words = ["Mark.", "a designer.", "a developer.", "a creative."];
+const words = ["Mark.", "a designer.", "a developer.", "a boyfriend."];
 
 const words2 = ["designer,", "developer,", "creative,", "problem-solver,"];
 
@@ -41,7 +41,7 @@ boxTl
   });
 
 let masterTl = gsap.timeline({ repeat: -1 }).pause();
-let animatedTextTl = gsap.timeline({ repeat: -1 }).pause();
+let animatedTextTl = gsap.timeline({ repeat: -1 }).play();
 
 // Separate timelines for "text" and "animated-text" classes
 words.forEach((word) => {
@@ -66,9 +66,9 @@ let isNotScrolling = true;
 
 let tween = gsap
   .to(".marquee-part", {
-    xPercent: -100,
+    xPercent: -270,
     repeat: -1,
-    duration: 6,
+    duration: 20,
     ease: "linear",
   })
   .totalProgress(0.5);
