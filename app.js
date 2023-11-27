@@ -51,7 +51,7 @@ words.forEach((word) => {
 });
 
 words2.forEach((word) => {
-  let tl = gsap.timeline({ delay: 1, repeat: 1, yoyo: true, repeatDelay: 1 });
+  let tl = gsap.timeline({ delay: 1, repeat: 1, yoyo: true, repeatDelay: 1.2 });
   tl.to(".animated-text", { duration: 1, text: word });
   animatedTextTl.add(tl);
 });
