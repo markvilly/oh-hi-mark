@@ -341,11 +341,28 @@ div .container {
 .skill-meter {
   position: absolute;
   left: 7%;
+
   margin-left: 50px;
   width: 25%;
   border-radius: 9px;
   height: 1%;
   background: #00050a;
+}
+
+.html {
+  top: 42%;
+}
+
+.css {
+  top: 53%;
+}
+
+.javascript {
+  top: 64%;
+}
+
+.figma {
+  top: 75%;
 }
 
 .soft-side {
@@ -376,7 +393,7 @@ hr {
   /* background: red; */
   position: absolute;
   padding-top: 100px;
-  padding-left: 20px;
+  padding-left: 80px;
 }
 
 h4 {
