@@ -121,8 +121,8 @@ div .container {
 .circles-container {
   display: flex;
   gap: 10px;
-  width: 15%;
-  height: 60px;
+  width: 15vw;
+  height: 10px;
   /* background: red; */
   position: absolute;
   top: 412px;
@@ -321,6 +321,25 @@ div .container {
   margin-top: 100px;
 }
 
+/* soft particle system */
+/* 
+.particles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  background-color: #3d06f0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+} */
+
 .skills {
   margin-left: 100px;
   margin-top: 50px;
@@ -361,18 +380,26 @@ div .container {
   top: 64%;
 }
 
-.figma {
+.react {
   top: 75%;
+  /* background-color: blue; */
+}
+
+.figma {
+  top: 86%;
 }
 
 .soft-side {
+  position: relative;
+  /* bottom: 100px; */
   width: 70%;
   height: 100%;
-  background: pink;
+  /* background: pink; */
 }
 
 #contact {
   position: absolute;
+  display: flex;
   top: 400vh;
   height: 100vh;
   width: 100vw;
@@ -388,12 +415,28 @@ hr {
 }
 
 .contact-container {
-  width: 100vw;
+  /* display: flex; */
+  width: 50%;
   height: 500px;
   /* background: red; */
   position: absolute;
   padding-top: 100px;
   padding-left: 80px;
+}
+
+.code-snip-div {
+  position: relative;
+  width: 50%;
+  left: 50%;
+  height: 500px;
+  /* background: blue; */
+}
+
+.snip {
+  position: absolute;
+  width: 450px;
+  margin-top: 100px;
+  right: 150px;
 }
 
 h4 {
@@ -432,4 +475,195 @@ h4 {
 .behance:hover,
 .linkedin:hover {
   color: #3d06f0;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 428px) {
+  #aboutme-section {
+    /* height: 90%; */
+  }
+
+  .about-me-div {
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+    width: 100%;
+    height: 70%;
+  }
+
+  .about-me-text {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .about-separator {
+    transform: rotate(90deg);
+    top: 0%;
+    height: 30%;
+    width: 0.5%;
+  }
+
+  .about-me-head {
+    top: -10%;
+    right: 155px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    font-size: 1rem;
+  }
+
+  .marquee.work {
+    /* background: blue; */
+    top: 75%;
+  }
+
+  .services-div {
+    /* background-color: yellow; */
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .services {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+  }
+
+  #services-section {
+    /* background: blue; */
+    padding-top: 50px;
+    height: 200vh;
+  }
+
+  .service {
+    margin-bottom: 100px;
+  }
+  .what-i-do-heading {
+    position: absolute;
+    width: 30%;
+    top: -130px;
+
+    right: 40vw;
+    /* background-color: blue; */
+    z-index: 99;
+  }
+
+  .separator-bottom {
+    top: 110%;
+    height: 0.3%;
+    width: 60%;
+    left: 100px;
+  }
+
+  .marquee-seperator {
+    /* width: 40%; */
+    height: 1.5%;
+  }
+
+  .ui-rule,
+  .prod-rule,
+  .vertical,
+  .horizontal-rule {
+    display: none;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .service-text {
+    font-size: 1rem;
+  }
+
+  .head {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .circle {
+    height: 16px;
+    width: 16px;
+  }
+  .circles-container {
+    /* background: #3d06f0; */
+    /* gap: 20px; */
+    left: 200px;
+    top: 55%;
+  }
+
+  .services-circle {
+    /* background: red; */
+    /* height: 16px; */
+
+    top: 95%;
+    left: 25vw;
+  }
+
+  #skills-section {
+    background: yellow;
+    top: 350vh;
+  }
+
+  .skills-marquee {
+    top: 10px;
+  }
+
+  #contact {
+    padding-top: 30px;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+    top: 460vh;
+  }
+
+  .contact-container {
+    /* background: blue; */
+    width: 100%;
+  }
+
+  .pic {
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    left: 15%;
+    bottom: -50px;
+  }
+  .contact-circle {
+    background: #eee;
+  }
+
+  .contacts-circle {
+    top: 85%;
+    left: 40%;
+  }
+
+  .code-snip-div {
+    display: none;
+  }
+
+  .contact-me {
+    position: absolute;
+    display: inline;
+    left: 29%;
+    font-size: 2rem;
+    top: 12%;
+  }
+  .email {
+    position: absolute;
+    font-size: 1.3rem;
+    display: inline;
+    left: 14%;
+    top: 30%;
+  }
+
+  .links {
+    top: 122%;
+    gap: 50px;
+    z-index: 99;
+  }
 }
