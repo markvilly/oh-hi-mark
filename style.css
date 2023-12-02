@@ -328,11 +328,8 @@ div .container {
   /* background-color: blue; */
   color: #00050a;
 }
+
 .skill {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   list-style: none;
   font-size: 2.3rem;
   line-height: 1.5;
