@@ -337,14 +337,18 @@ div .container {
 }
 
 .skill-meter {
-  position: absolute;
-  /* margin-left: 50px; */
-  width: 10%;
+  position: relative;
+}
+
+/* .skill-meter {
+  position: absolute; */
+/* margin-left: 50px; */
+/* width: 10%;
   border-radius: 50%;
   height: 10%;
   border: 1px solid #00050a;
   background: transparent;
-}
+} */
 
 .html {
   top: 42%;
