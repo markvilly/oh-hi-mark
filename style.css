@@ -320,6 +320,11 @@ div .container {
   padding: 15px 20px;
 }
 
+.skill-box:hover {
+  cursor: pointer;
+  background: rgb(199, 199, 199);
+}
+
 .skill-box .skill-bar {
   height: 4px;
   width: 100%;
@@ -335,7 +340,7 @@ div .container {
   width: 90%;
   background: #4070f4;
   border-radius: 2px;
-  animation: progress 1s ease-in-out forwards;
+  animation: progress 1.3s ease-in-out forwards;
   opacity: 0;
 }
 
