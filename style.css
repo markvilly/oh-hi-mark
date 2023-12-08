@@ -298,7 +298,6 @@ div .container {
 .skill-wrapper {
   position: relative;
   display: flex;
-  /* background: #2800ad; */
   width: 100%;
   height: 80%;
   margin-top: 120px;
@@ -322,65 +321,6 @@ div .container {
   margin-top: 100px;
 }
 
-.skills {
-  margin-left: 100px;
-  margin-top: 50px;
-  /* background-color: blue; */
-  color: #00050a;
-}
-
-.skill {
-  list-style: none;
-  font-size: 2.3rem;
-  line-height: 1.5;
-  color: #00050a;
-}
-
-.skill-meter {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  background: cornflowerblue;
-}
-
-.outer {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: 1px solid red;
-}
-
-/* .skill-meter {
-  position: absolute; */
-/* margin-left: 50px; */
-/* width: 10%;
-  border-radius: 50%;
-  height: 10%;
-  border: 1px solid #00050a;
-  background: transparent;
-} */
-
-.html {
-  top: 42%;
-}
-
-.css {
-  top: 53%;
-}
-
-.javascript {
-  top: 64%;
-}
-
-.react {
-  top: 75%;
-  /* background-color: blue; */
-}
-
-.figma {
-  top: 86%;
-}
-
 .soft-side {
   position: relative;
   /* bottom: 100px; */
@@ -393,7 +333,7 @@ div .container {
   position: absolute;
   display: flex;
   top: 400vh;
-  height: 100vh;
+  height: 111vh;
   width: 100vw;
   background: #00050a;
   color: #eeeeee;
@@ -409,7 +349,7 @@ hr {
 .contact-container {
   /* display: flex; */
   width: 50%;
-  height: 500px;
+  height: 700px;
   /* background: red; */
   position: absolute;
   padding-top: 100px;
@@ -451,9 +391,9 @@ h4 {
 
 .pic {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 5%;
+  width: 380px;
+  height: 380px;
+  border-radius: 1%;
 }
 
 .github,
