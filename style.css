@@ -338,7 +338,7 @@ div .container {
   display: block;
   height: 100%;
   width: 90%;
-  background: #4070f4;
+  background: #00050a;
   border-radius: 2px;
   animation: progress 1.3s ease-in-out forwards;
   opacity: 0;
@@ -374,7 +374,7 @@ div .container {
   position: absolute;
   right: -14px;
   top: -28px;
-  background: #4070f4;
+  background: #00050a;
   font-size: 12px;
   font-weight: 500;
   color: #fff;
@@ -397,7 +397,7 @@ div .container {
   left: 50%;
   height: 10px;
   width: 10px;
-  background-color: #4070f4;
+  background-color: #00050a;
   z-index: -1;
   transform: translateY(-50%) rotate(45deg);
 }
