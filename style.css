@@ -313,7 +313,8 @@ div .container {
 
 .technical-side .skill-box {
   width: 90%;
-  background: rgb(212, 212, 212);
+  /* background: rgb(212, 212, 212); */
+  border: 1px solid #00050a;
   border-radius: 5px;
   margin: 25px 0px;
   margin-left: 40px;
@@ -323,7 +324,7 @@ div .container {
 
 .skill-box:hover {
   cursor: pointer;
-  background: rgb(199, 199, 199);
+  background: rgb(187, 187, 187);
 }
 
 .skill-box .skill-bar {
@@ -441,7 +442,7 @@ div .container {
   justify-content: center;
   align-items: center;
   /* background: red; */
-  width: 150px;
+  width: 120px;
   height: 100%;
   margin-bottom: 5px;
   /* margin-left: 100px; */
@@ -454,6 +455,10 @@ div .container {
 .soft:hover {
   flex-grow: 1;
   cursor: pointer;
+}
+
+.active {
+  flex-grow: 1;
 }
 
 .soft span {
@@ -673,11 +678,51 @@ h4 {
 
   #skills-section {
     /* background: yellow; */
-    top: 350vh;
+    top: 360vh;
+    height: 160%;
   }
 
   .skills-marquee {
     top: 10px;
+  }
+
+  .skill-wrapper {
+    flex-direction: column;
+  }
+
+  .technical-side {
+    /* background: red; */
+    width: 100%;
+    align-content: center;
+  }
+
+  .skill-box {
+    /* background: blue; */
+    padding-right: 100px;
+  }
+
+  .tech-head {
+    font-size: 1rem;
+  }
+
+  .soft-side {
+    width: 100%;
+    /* background: blue; */
+    height: 100%;
+  }
+  .soft-head {
+    font-size: 1rem;
+  }
+
+  .soft-wrapper {
+    /* background: pink; */
+    padding: 10px 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .skills-circle {
+    top: 110%;
   }
 
   #contact {
@@ -685,7 +730,8 @@ h4 {
     flex-direction: column;
     /* background-color: red; */
     align-items: center;
-    top: 460vh;
+    top: 520vh;
+    height: 100vh;
   }
 
   .contact-container {
@@ -694,6 +740,7 @@ h4 {
   }
 
   .pic {
+    top: 30%;
     border-radius: 3px;
     width: 300px;
     height: 300px;
@@ -725,12 +772,26 @@ h4 {
     font-size: 1.3rem;
     display: inline;
     left: 14%;
-    top: 30%;
+    top: 18%;
   }
 
   .links {
-    top: 122%;
-    gap: 50px;
+    left: 70px;
+    flex-direction: column;
+    top: 75%;
+    gap: 10px;
     z-index: 99;
+    list-style: none;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    left: 0;
+    /* background: red; */
+    border: 1px solid #fff;
+    width: 290px;
+    height: 50px;
+    padding-left: 10px;
   }
 }
