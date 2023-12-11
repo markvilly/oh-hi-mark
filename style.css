@@ -290,9 +290,18 @@ div .container {
 .skills-marquee {
   position: absolute;
   /* background: blue; */
-  top: -10%;
+  top: -5%;
   /* z-index: 99; */
   margin-top: 20px;
+}
+
+.skills-sep {
+  position: absolute;
+  background: #00050a;
+  width: 90vw;
+  height: 1%;
+  border-radius: 4px;
+  left: 5vw;
 }
 
 .skill-wrapper {
